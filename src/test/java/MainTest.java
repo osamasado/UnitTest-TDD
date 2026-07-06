@@ -259,10 +259,4 @@ class MainTest {
         int[] actual = Main.mergeArrays(a,b);
         assertArrayEquals(expected, actual);
     }
-
-    @Test
-    void myMethodTest() {
-        assertEquals(5, 2 + 2);
-    }
-
 }
